@@ -14,10 +14,14 @@
   "author": "Muhammad Usman <muhammadusman19375@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "@types/express": "^5.0.2",
     "@types/node": "^22.15.18",
     "eslint": "^9.27.0",
     "nodemon": "^3.1.10",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
   }
 }
