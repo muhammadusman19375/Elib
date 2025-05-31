@@ -15,6 +15,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/express": "^5.0.2",
+    "@types/mongoose": "^5.11.97",
     "@types/node": "^22.15.18",
     "eslint": "^9.27.0",
     "nodemon": "^3.1.10",
@@ -22,6 +23,7 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "mongoose": "^8.15.0"
   }
 }
