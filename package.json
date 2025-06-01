@@ -17,6 +17,7 @@
     "@types/bcrypt": "^5.0.2",
     "@types/express": "^5.0.2",
     "@types/http-errors": "^2.0.4",
+    "@types/jsonwebtoken": "^9.0.9",
     "@types/mongoose": "^5.11.97",
     "@types/node": "^22.15.18",
     "eslint": "^9.27.0",
@@ -28,6 +29,7 @@
     "bcrypt": "^6.0.0",
     "express": "^5.1.0",
     "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.15.0"
   }
 }
