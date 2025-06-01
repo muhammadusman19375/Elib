@@ -14,6 +14,7 @@
   "author": "Muhammad Usman <muhammadusman19375@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
     "@types/express": "^5.0.2",
     "@types/http-errors": "^2.0.4",
     "@types/mongoose": "^5.11.97",
@@ -24,6 +25,7 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "express": "^5.1.0",
     "http-errors": "^2.0.0",
     "mongoose": "^8.15.0"
