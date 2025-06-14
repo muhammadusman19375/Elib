@@ -41,14 +41,13 @@ const createUser = async(req: Request, res: Response, next: NextFunction) => {
     }
 
     try {
-        // token generation: JWT
+    // token generation: JWT
     const token = sign({sub: newUser._id}, config.jwtSecret as string, {expiresIn: '7d', algorithm: 'HS256'});
 
     // response
-    res.json({accessToken: token});
+    res.status(201).json({accessToken: token});
     } catch(err) {
         return next(createHttpError(500, "Error while signing the jwt token."))
     }
 };
 
-export {createUser};
