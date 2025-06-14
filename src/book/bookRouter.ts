@@ -5,10 +5,6 @@ import multer from 'multer';
 
 const bookRouter = express.Router();
 
-// First store file local
-// Second upload file local to online server
-// Third delete file from local
-
 const upload = multer({
     dest: path.resolve(__dirname, '../../public/data/uploads'),
     limits: {fileSize: 1e7}
