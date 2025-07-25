@@ -186,7 +186,7 @@ const deleteBook = async (req: Request, res: Response, next: NextFunction) => {
     // check this book belongs to that author.
     const _req = req as AuthRequest;
     if(book.author.toString() !== _req.userId) {
-        return next(createHttpError(403, "You cannot update others book."));
+        return next(createHttpError(403, "You cannot delete others book."));
     }
 
     try {
